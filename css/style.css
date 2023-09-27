@@ -1,0 +1,150 @@
+:root {
+    --bg: #131d29;
+    --sec: #f2f3f5;
+    --btnColor: #e27e0d;
+    --white: #ffffff;
+
+    --main: 'Oswald', sans-serif;
+}
+
+.prim-font {
+    font-family: var(--main);
+}
+
+.nav-btn {
+    background-color: var(--bg);
+    color: var(--white);
+}
+
+.nav-btn:hover {
+    background-color: var(--btnColor);
+    color: var(--white);
+}
+
+.body {
+    font-family: var(--main);
+    background-color: var(--sec);
+}
+
+.top-header {
+    background-color: var(--bg);
+}
+
+.demo-link {
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.bottom-nav {
+    margin-top: 20px;
+}
+
+.top-nav .nav-item {
+    border-right: solid #6c757d 1px;
+}
+
+.top-nav .nav-item:last-child {
+    border-right: none;
+}
+
+.top-nav-link {
+    margin-left: 6px;
+}
+
+.sliders {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 100px;
+    height: 30px;
+}
+
+.slider {
+    width: 25px;
+    height: 25px;
+    background-color: #999;
+    border-radius: 50%;
+}
+
+.slider:hover {
+    background-color: var(--btnColor);
+}
+
+.main-content h2 {
+    margin: 30px 0;
+}
+
+.top-footer {
+    padding-bottom: 60px;
+    margin-top: 60px;
+    padding-top: 60px;
+    background: radial-gradient(
+        circle at 50% -50%,
+        rgb(53, 85, 123),
+        rgb(12, 23, 82)
+    );
+}
+
+.services-list {
+    list-style-image: url('../images/cog.png');
+    padding-left: 16px;
+    margin-top: 20px;
+}
+
+.services-item {
+    padding-left: 16px;
+    list-style-image: url('../images/cog.png');
+}
+
+.opp-list {
+    list-style-image: url('../images/chat.png');
+    padding-left: 16px;
+    margin-top: 20px;
+}
+
+.opp-btn {
+    margin-top: 90px;
+}
+
+
+.date-div {
+    width: 160px;
+    height: 90px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.news-list {
+    padding: 0;
+}
+
+.news-item {
+    margin-top: 1px;
+}
+
+.date-div {
+    margin-right: 10px;
+}
+
+.news-item:first-child .date-div {
+    background-color: #b97f3c;
+}
+
+.news-item:nth-child(2) .date-div {
+    background-color: #bd5e3e;
+}
+
+.news-item:last-child .date-div {
+    background-color: #bd3e5c;
+}
+
+.news-day {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.bottom-footer {
+    height: 140px;
+    padding-top: 20px;
+    background-color: #0b1016;
+}
